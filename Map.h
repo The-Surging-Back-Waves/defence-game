@@ -6,6 +6,16 @@
 #define DEFENCE_GAME_MAP_H
 #include"MapElement.h"
 class Map {
+    static int geneId(){static int id = 0;id++;return id;}
+public:
+    Map():id(geneId()){}
+
+    int getHeight(){return height;}
+    int getWidth(){return width;}
+
+    void setHeight(int val){height = val;}
+    void setWidth(int val){width = val;}
+
 private:
     int height;
     int width;

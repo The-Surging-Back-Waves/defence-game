@@ -27,6 +27,7 @@ public:
     void setSpeed(int k){speed = k;}
     void setMoney(int k){money = k;}
     void setDamage(int k){damage = k;}
+    void setPosition(int x,int y){pos = Position(x,y);}
 private:
     int HP;
     int speed;

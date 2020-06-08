@@ -4,10 +4,13 @@
 
 #ifndef DEFENCE_GAME_RANGEBULLETFACTORY_H
 #define DEFENCE_GAME_RANGEBULLETFACTORY_H
+#include"BulletFactory.h"
+#include"RangeBullet.h"
+#include"Position.h"
 
-
-class RangeBulletFactory {
-
+class RangeBulletFactory : public BulletFactory{
+public:
+    virtual RangeBullet getBullet(Position pos);
 };
 
 

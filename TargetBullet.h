@@ -4,9 +4,16 @@
 
 #ifndef DEFENCE_GAME_TARGETBULLET_H
 #define DEFENCE_GAME_TARGETBULLET_H
+#include"Bullet.h"
+#include"Monster.h"
+class TargetBullet : public Bullet{
+public:
+    ~TargetBullet(){}
+    virtual void move();
+    virtual void attack();
 
-
-class TargetBullet {
+private:
+    Monster *target;
 
 };
 
