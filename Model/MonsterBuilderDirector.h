@@ -1,0 +1,14 @@
+//
+// Created by hw730 on 2020/6/11.
+//
+
+#ifndef DEFENCE_GAME_MONSTERBUILDERDIRECTOR_H
+#define DEFENCE_GAME_MONSTERBUILDERDIRECTOR_H
+
+
+class MonsterBuilderDirector {
+
+};
+
+
+#endif //DEFENCE_GAME_MONSTERBUILDERDIRECTOR_H
