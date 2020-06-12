@@ -1,0 +1,14 @@
+//
+// Created by hw730 on 2020/6/12.
+//
+
+#ifndef DEFENCE_GAME_BULLETLINKLISTMANAGER_H
+#define DEFENCE_GAME_BULLETLINKLISTMANAGER_H
+
+
+class BulletLinkListManager {
+
+};
+
+
+#endif //DEFENCE_GAME_BULLETLINKLISTMANAGER_H
