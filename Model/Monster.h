@@ -22,12 +22,10 @@ public:
     int getId(){return id;}
     int getDamage(){return damage;}
 
-    //setters
-    void setHP(int k){HP = k;}
-    void setSpeed(int k){speed = k;}
-    void setMoney(int k){money = k;}
-    void setDamage(int k){damage = k;}
-    void setPosition(int x,int y){pos = Position(x,y);}
+    void setPos(int x,int y){pos = Position(x,y);}
+    void setPos(Position position){pos = position;}
+
+
 private:
     int HP;
     int speed;

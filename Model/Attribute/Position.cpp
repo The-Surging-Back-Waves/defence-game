@@ -1,9 +1,9 @@
 #include "Position.h"
 
-Position::Position()
-{
-    //ctor
-}
+//Position::Position()
+//{
+//    //ctor
+//}
 
 Position::~Position()
 {

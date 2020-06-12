@@ -5,13 +5,13 @@
 #ifndef DEFENCE_GAME_TROOP_H
 #define DEFENCE_GAME_TROOP_H
 #include"Monster.h"
-
 class Troop {
     static int geneId(){static int ID = 0;ID++;return ID;}
 public:
     Troop():id(geneId()){}
     int getTime(){return time;}
     int getId(){return id;}
+    Monster* getMonster(){return monster;}
 
 private:
     Monster *monster;

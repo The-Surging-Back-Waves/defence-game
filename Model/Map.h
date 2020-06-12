@@ -5,6 +5,7 @@
 #ifndef DEFENCE_GAME_MAP_H
 #define DEFENCE_GAME_MAP_H
 #include"MapElement.h"
+#include "vector"
 class Map {
     static int geneId(){static int id = 0;id++;return id;}
 public:
@@ -12,6 +13,8 @@ public:
 
     int getHeight(){return height;}
     int getWidth(){return width;}
+    MapElement getMapelement(int x,int y){return element[x][y];}
+    MapElement getMapelement(Position position){return element[position.getX()][position.getY()];}
 
     void setHeight(int val){height = val;}
     void setWidth(int val){width = val;}
@@ -19,7 +22,7 @@ public:
 private:
     int height;
     int width;
-    MapElement *elements;
+    std::vector< std::vector<MapElement> > element;
     int id;
 
 };
